@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+	Template Name: Multipurpose Bootstrap 5.0 HTML Template
+	Author: Rainbow Design
+	
+*/
+
+/* Medium Devices, Desktops */
+@media (max-width: 991px) {
+.sticky-wrapper {
+	height: auto !important;
+}
+.sticky-wrapper .header-lover {
+	position: relative !important;
+}
+.header-location {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.header-lover .navbar-nav {
+	background-color: #333;
+}
+.header-lover .navbar .nav-item {
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.header-lover .navbar .nav-item .nav-link {
+	padding: 14px 16px;
+	color: #fff;
+}
+.header-lover .navbar-collapse {
+	z-index: 11;
+}
+.is-sticky .header-lover .navbar .nav-item .nav-link {
+	color: #fff;
+}
+.slider .carousel-item:after {
+	background-size: cover;
+}
+.slider .carousel-control-next, .slider .carousel-control-prev {
+	display: none;
+}
+.features-panel h5 {
+	font-size: 25px;
+}
+.blog-item .blog-item-meta li a {
+	font-size: 12px;
+}
+}
+/* Small Devices, Tablets */
+@media (max-width: 767px) {
+.header-upper {
+	display: none;
+}
+.header-lover:after {
+	display: none;
+}
+.slider .carousel-item {
+	height: 400px;
+}
+}
+/* Extra Small Devices, Phones */
+@media (max-width: 575px) {
+.slider .carousel-caption h2 {
+	font-size: 30px;
+	line-height: 40px;
+}
+.slider .carousel-item {
+	height: 300px;
+}
+.footer-social {
+	text-align: center;
+}
+.inner-page-header h1 {
+	font-size: 34px;
+}
+.project-description ul li {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 20px;
+}
+.project-description ul li .title {
+	width: 100%;
+}
+.project-description ul li .title:after {
+	display: none;
+}
+}
